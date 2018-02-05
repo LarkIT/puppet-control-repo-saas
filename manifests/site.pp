@@ -25,6 +25,11 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+# Check for global_noop flag and enable noop for entire scope if set to 'true'
+if lookup('global_noop') {
+  noop()
+}
+
 node default {
   # Include classes defined in hiera data for hierarchy of given node
   lookup('classes', Array[String], 'unique', [""]).include
