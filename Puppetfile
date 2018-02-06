@@ -31,6 +31,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'thias/fooacl', '1.0.1'
   mod 'thias/tuned', '1.0.0'
   mod 'treydock/gpg_key', '0.0.3'
+  mod 'trlinkin-noop', '0.1.0'
 
 ## Modules sourced from Git
 
