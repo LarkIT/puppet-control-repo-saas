@@ -94,6 +94,10 @@ mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
   :ref => 'v6.0.0'
 
+mod 'repos',
+    :git => 'https://github.com/LarkIT/repos.git',
+    :ref => 'v0.0.1'
+
 mod 'role',
     :git => 'git@github.com:LarkIT/role.git',
     :ref => 'master'
