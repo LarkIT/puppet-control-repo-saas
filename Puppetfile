@@ -34,6 +34,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'richardc/datacat', '0.6.2'
   mod 'saz/sudo', '3.1.0'
   mod 'sensu/sensu', '2.0.0'
+  mod 'stahnma-epel', '1.2.2'
   mod 'theforeman/dhcp', '3.1.0'
   mod 'theforeman/dns', '4.1.0'
   mod 'theforeman/foreman_proxy', '6.0.3'
@@ -84,6 +85,10 @@ mod 'profile',
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
     :ref => 'puppet4'
+
+mod 'pulp',
+  :git => 'https://github.com/Katello/puppet-pulp.git',
+  :ref => 'bb68da3' # Post 4.3.0
 
 mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
