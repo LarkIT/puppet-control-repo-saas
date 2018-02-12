@@ -12,6 +12,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'jlambert121/postfix', '0.9.0'
   mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
+  mod 'pcfens-ca_cert', '1.6.1'
   mod 'petems/swap_file', '1.0.0'
   mod 'puppet-extlib', '1.1.0'
   mod 'puppet-hiera', '3.0.0'
