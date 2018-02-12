@@ -26,7 +26,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppetlabs/ntp', '4.1.2'
   mod 'puppetlabs/postgresql', '4.9.0'
   mod 'puppetlabs/puppetdb', '5.1.2'
-  mod 'puppetlabs/stdlib', '4.9.0'
+  mod 'puppetlabs/stdlib', '4.24.0'
   mod 'richardc/datacat', '0.6.2'
   mod 'saz/sudo', '3.1.0'
   mod 'sensu/sensu', '2.0.0'
