@@ -23,7 +23,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppetlabs-puppetserver_gem', '1.0.0'
   mod 'puppetlabs-xinetd', '3.0.0'
   mod 'puppetlabs/apt', '2.1.1'
-  mod 'puppetlabs/concat', '1.2.4'
+  mod 'puppetlabs/concat', '2.2.0'
   mod 'puppetlabs/firewall', '1.8.2'
   mod 'puppetlabs/haproxy', '0.4.1'
   mod 'puppetlabs/inifile', '1.2.0'
