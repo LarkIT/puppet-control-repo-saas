@@ -14,20 +14,29 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'maestrodev/rvm', '1.11.0'
   mod 'petems/swap_file', '1.0.0'
   mod 'puppet-logrotate', '2.0.0'
-  mod 'puppet-selinux', '0.8.0'
+  mod 'puppet-selinux', '1.5.2'
+  mod 'puppetlabs-postgresql', '5.2.1'
   mod 'puppetlabs/apt', '2.1.1'
   mod 'puppetlabs/concat', '1.2.4'
   mod 'puppetlabs/firewall', '1.8.2'
   mod 'puppetlabs/haproxy', '0.4.1'
   mod 'puppetlabs/inifile', '1.2.0'
   mod 'puppetlabs/java', '1.2.0'
+  mod 'puppetlabs/mysql', '3.10.0'
   mod 'puppetlabs/ntp', '4.1.2'
-  mod 'puppetlabs-postgresql', '5.2.1'
-  mod 'puppetlabs/puppetdb', '4.1.0'
+  mod 'puppetlabs/postgresql', '4.9.0'
+  mod 'puppetlabs/puppetdb', '5.1.2'
   mod 'puppetlabs/stdlib', '4.9.0'
+  mod 'richardc/datacat', '0.6.2'
   mod 'saz/sudo', '3.1.0'
   mod 'sensu/sensu', '2.0.0'
-  mod 'theforeman/puppet', '4.2.0'
+  mod 'theforeman/dhcp', '3.1.0'
+  mod 'theforeman/dns', '4.1.0'
+  mod 'theforeman/foreman_proxy', '6.0.3'
+  mod 'theforeman/foreman', '8.1.1'
+  mod 'theforeman/git', '2.0.0'
+  mod 'theforeman/puppet', '7.1.1'
+  mod 'theforeman/tftp', '3.0.2'
   mod 'thias/fooacl', '1.0.1'
   mod 'thias/tuned', '1.0.0'
   mod 'treydock/gpg_key', '0.0.3'
@@ -80,9 +89,9 @@ mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
     :ref => 'master'
 
-mod 'selinux',
-    :git => 'git@github.com:LarkIT/puppet-selinux.git',
-    :ref => 'puppet4'
+#mod 'selinux',
+#    :git => 'git@github.com:LarkIT/puppet-selinux.git',
+#    :ref => 'puppet4'
 
 mod 'shibboleth',
     :git => 'git@github.com:LarkIT/puppet-shibboleth.git',
