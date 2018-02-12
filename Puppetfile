@@ -13,6 +13,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
   mod 'petems/swap_file', '1.0.0'
+  mod 'puppetlabs-apache', '2.3.0'
   mod 'puppet-extlib', '1.1.0'
   mod 'puppet-logrotate', '2.0.0'
   mod 'puppet-selinux', '1.5.2'
