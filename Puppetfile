@@ -81,6 +81,10 @@ mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
     :ref => 'puppet4'
 
+mod 'r10k',
+  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
+  :ref => 'v6.0.0'
+
 mod 'role',
     :git => 'git@github.com:LarkIT/role.git',
     :ref => 'master'
