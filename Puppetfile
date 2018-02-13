@@ -81,7 +81,7 @@ mod 'openvpn_as',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-    :ref => 'master'
+    :ref => 'v0.0.5'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
