@@ -19,7 +19,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppet-logrotate', '2.0.0'
   mod 'puppet-selinux', '1.5.2'
   mod 'puppetlabs-apache', '2.3.0'
-  mod 'puppetlabs-postgresql', '5.2.1'
+  mod 'puppetlabs-postgresql', '4.9.0'
   mod 'puppetlabs-puppetserver_gem', '1.0.0'
   mod 'puppetlabs-xinetd', '3.0.0'
   mod 'puppetlabs/apt', '2.1.1'
