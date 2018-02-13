@@ -26,7 +26,7 @@ File { backup => false }
 # specified in the console for that node.
 
 # Check for global_noop flag and enable noop for entire scope if set to 'true'
-if lookup('global_noop',false) {
+if lookup('global_noop', Boolean, 'first', false) {
   noop()
 }
 
