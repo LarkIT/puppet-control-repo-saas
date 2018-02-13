@@ -54,6 +54,10 @@ mod 'duplicity',
     :git => 'https://github.com/LarkIT/puppet-duplicity.git',
     :ref => 'puppet4'
 
+mod 'gms',
+  :git => 'https://github.com/abrader/abrader-gms.git',
+  :ref => 'v1.0.3'
+
 mod 'hieradata',
     :git          => 'git@github.com:LarkIT/puppet-hieradata-saas.git',
     :ref          => 'production',
