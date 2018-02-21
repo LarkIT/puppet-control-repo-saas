@@ -107,7 +107,7 @@ mod 'repos',
 
 mod 'role',
     :git => 'git@github.com:LarkIT/role.git',
-    :ref => 'master'
+    :ref => 'zabbix'
 
 mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
