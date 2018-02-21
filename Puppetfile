@@ -47,6 +47,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'thias/tuned', '1.0.0'
   mod 'treydock/gpg_key', '0.0.3'
   mod 'trlinkin-noop', '0.1.0'
+  mod 'puppet-zabbix', '6.2.0'
 
 ## Modules sourced from Git
 
@@ -85,7 +86,8 @@ mod 'openvpn_as',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-    :ref => 'v0.0.5'
+#   :ref => 'v0.0.5'
+    :ref => 'zabbix'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
