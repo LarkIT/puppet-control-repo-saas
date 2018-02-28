@@ -86,8 +86,7 @@ mod 'openvpn_as',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-#   :ref => 'v0.0.5'
-    :ref => 'zabbix'
+    :ref => 'master'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
@@ -103,11 +102,11 @@ mod 'r10k',
 
 mod 'repos',
     :git => 'https://github.com/LarkIT/repos.git',
-    :ref => 'v0.0.1'
+    :ref => 'master'
 
 mod 'role',
     :git => 'git@github.com:LarkIT/role.git',
-    :ref => 'zabbix'
+    :ref => 'master'
 
 mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
