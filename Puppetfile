@@ -8,7 +8,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'CERNOps/nscd', '0.1.0'
   mod 'fsalum/newrelic', '4.1.1'
   mod 'gerapeldoorn/rhn', '1.0.0'
-  mod 'ghoneycutt/nrpe', '1.0.1'
+  mod 'ghoneycutt/nrpe', '1.6.0'
   mod 'jlambert121/postfix', '0.9.0'
   mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
