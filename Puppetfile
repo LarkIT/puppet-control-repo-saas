@@ -98,12 +98,16 @@ mod 'proftpd',
     :ref => 'puppet4'
 
 mod 'pulp',
-  :git => 'https://github.com/Katello/puppet-pulp.git',
-  :ref => 'bb68da3' # Post 4.3.0
+    :git => 'https://github.com/Katello/puppet-pulp.git',
+    :ref => 'bb68da3' # Post 4.3.0
+
+mod 'qpid',
+    :git => 'https://github.com/katello/puppet-qpid.git',
+    :ref => '2.1.0'
 
 mod 'r10k',
-  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
-  :ref => 'v6.0.0'
+    :git => 'https://github.com/voxpupuli/puppet-r10k.git',
+    :ref => 'v6.0.0'
 
 mod 'repos',
     :git => 'https://github.com/LarkIT/repos.git',
