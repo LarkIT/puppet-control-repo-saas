@@ -107,7 +107,7 @@ mod 'qpid',
 
 mod 'r10k',
     :git => 'https://github.com/voxpupuli/puppet-r10k.git',
-    :ref => 'v6.0.0'
+    :ref => 'v6.3.2'
 
 mod 'repos',
     :git => 'https://github.com/LarkIT/repos.git',
