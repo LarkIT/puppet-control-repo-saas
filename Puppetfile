@@ -77,6 +77,10 @@ mod 'lark',
     :git => 'git@github.com:LarkIT/puppet-lark.git',
     :ref => 'master'
 
+mod 'mongodb',
+    :git => 'https://github.com/puppetlabs/puppetlabs-mongodb.git',
+    :ref => '0.17.0'
+
 mod 'n98magerun',
     :git => 'git@github.com:LarkIT/puppet-n98magerun.git',
     :ref => 'puppet4'
