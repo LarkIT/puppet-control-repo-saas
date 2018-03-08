@@ -29,6 +29,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppetlabs/haproxy', '0.4.1'
   mod 'puppetlabs/inifile', '1.2.0'
   mod 'puppetlabs/java', '1.2.0'
+  mod 'puppet/letsencrypt', '1.1.0'
   mod 'puppetlabs/mysql', '3.10.0'
   mod 'puppetlabs/ntp', '4.1.2'
   mod 'puppetlabs/puppetdb', '5.1.2'
