@@ -46,6 +46,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'theforeman/puppet', '7.1.1'
   mod 'theforeman/tftp', '3.0.2'
   mod 'thias/fooacl', '1.0.1'
+  mod 'thias-sysctl', '1.0.6'
   mod 'thias/tuned', '1.0.0'
   mod 'treydock/gpg_key', '0.0.3'
   mod 'trlinkin-noop', '0.1.0'
