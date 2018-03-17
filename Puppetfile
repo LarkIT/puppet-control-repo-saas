@@ -3,8 +3,8 @@
 forge "https://forgeapi.puppetlabs.com"
 
 ## Standard Forge Modules
-  mod '3fs/casperjs', '0.0.2'
-  mod '3fs/phantomjs', '0.0.8'
+  mod '3fs-casperjs', '0.0.4'
+  mod '3fs-phantomjs', '1.0.0'
   mod 'adrien/boolean', '1.0.1'
   mod 'camptocamp/archive', '0.7.0'
   mod 'CERNOps/nscd', '0.1.0'
@@ -18,7 +18,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'kemra102-cloudwatchlogs', '2.3.1'
   mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
-  mod 'nanliu/staging', '1.0.3'
+  mod 'nanliu-staging', '1.0.3'
   mod 'pcfens-ca_cert', '1.6.1'
   mod 'petems/swap_file', '1.0.0'
   mod 'puppet-extlib', '1.1.0'
