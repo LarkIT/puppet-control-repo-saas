@@ -79,7 +79,7 @@ mod 'hieradata',
 
 mod 'host_railsapp',
     :git => 'git@github.com:LarkIT/puppet-host_railsapp.git',
-    :ref => 'master'
+    :ref => 'puppet4'
 
 mod 'ipa',
     :git => 'https://github.com/huit/puppet-ipa',
