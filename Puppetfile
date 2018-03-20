@@ -24,6 +24,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppet-extlib', '1.1.0'
   mod 'puppet-hiera', '3.0.0'
   mod 'puppet-logrotate', '2.0.0'
+  mod 'puppet-rabbitmq', '8.1.0'
   mod 'puppet-selinux', '1.5.2'
   mod 'puppet-zabbix', '6.2.0'
   mod 'puppet/letsencrypt', '1.1.0'
