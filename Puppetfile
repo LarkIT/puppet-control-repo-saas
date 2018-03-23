@@ -7,6 +7,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod '3fs-phantomjs', '1.0.0'
   mod 'adrien/boolean', '1.0.1'
   mod 'camptocamp/archive', '0.7.0'
+  mod 'camptocamp/augeas', '1.2.11'
   mod 'CERNOps/nscd', '0.1.0'
   mod 'echoes/monit', '0.4.0'
   mod 'evenup/redis', '1.3.1'
