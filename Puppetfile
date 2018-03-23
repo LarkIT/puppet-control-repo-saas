@@ -18,6 +18,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'kemra102-cloudwatchlogs', '2.3.1'
   mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
+  mod 'mayflower/php', '4.0.0-beta1'
   mod 'nanliu-staging', '1.0.3'
   mod 'pcfens-ca_cert', '1.6.1'
   mod 'petems/swap_file', '1.0.0'
