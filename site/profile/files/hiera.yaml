@@ -1,0 +1,34 @@
+# managed by puppet
+---
+:backends:
+- eyaml
+- yaml
+
+:logger: console
+
+:hierarchy:
+  - "nodes/%{::trusted.certname}"
+  - "client/%{::trusted.extensions.pp_application}/product/%{::trusted.extensions.pp_product}/%{::trusted.extensions.pp_environment}/%{::trusted.extensions.pp_role}"
+  - "client/%{::trusted.extensions.pp_application}/product/%{::trusted.extensions.pp_product}/%{::trusted.extensions.pp_role}"
+  - "client/%{::trusted.extensions.pp_application}/product/%{::trusted.extensions.pp_product}/%{::trusted.extensions.pp_environment}"
+  - "client/%{::trusted.extensions.pp_application}/product/%{::trusted.extensions.pp_product}/common"
+  - "client/%{::trusted.extensions.pp_application}/%{::trusted.extensions.pp_environment}/%{::trusted.extensions.pp_role}"
+  - "client/%{::trusted.extensions.pp_application}/%{::trusted.extensions.pp_role}"
+  - "client/%{::trusted.extensions.pp_application}/%{::trusted.extensions.pp_environment}"
+  - "client/%{::trusted.extensions.pp_application}/common"
+  - "%{::trusted.extensions.pp_environment}/%{::trusted.extensions.pp_role}"
+  - "role/%{::trusted.extensions.pp_role}"
+  - "role/%{::role}"
+  - "%{::trusted.extensions.pp_role}"
+  - "%{::trusted.extensions.pp_environment}"
+  - "os/%{::operatingsystem}-%{::operatingsystemmajrelease}"
+  - common
+
+:eyaml:
+  :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata"
+  :extension: eyaml
+  :pkcs7_private_key: "/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem"
+  :pkcs7_public_key: "/etc/puppetlabs/puppet/keys/public_key.pkcs7.pem"
+
+:yaml:
+  :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata"
