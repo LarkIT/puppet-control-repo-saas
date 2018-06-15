@@ -64,6 +64,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'treydock/gpg_key', '0.0.3'
   mod 'trlinkin-noop', '0.1.0'
   mod 'vshn-gitlab', '1.14.0'
+  mod 'puppet-squid', '1.1.0'
 
 ## Modules sourced from Git
 
