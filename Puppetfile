@@ -48,6 +48,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppetlabs/puppetdb', '6.0.2'
   mod 'puppetlabs/stdlib', '4.24.0'
   mod 'richardc/datacat', '0.6.2'
+  mod 'rtyler/jenkins', '1.3.0'
   mod 'saz/sudo', '3.1.0'
   mod 'sensu/sensu', '2.43.0'
   mod 'stahnma-epel', '1.2.2'
