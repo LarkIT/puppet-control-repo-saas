@@ -17,7 +17,6 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'golja-gnupg', '1.2.3'
   mod 'jlambert121/postfix', '0.9.0'
   mod 'kemra102-cloudwatchlogs', '2.3.1'
-  mod 'larkit/phpmyadmin', '0.1.2'
   mod 'maestrodev/rvm', '1.11.0'
   mod 'mayflower/php', '4.0.0-beta1'
   mod 'nanliu-staging', '1.0.3'
@@ -104,6 +103,10 @@ mod 'n98magerun',
 mod 'openvpn_as',
     :git => 'https://github.com/LarkIT/puppet-openvpn_as.git',
     :ref => 'master'
+
+mod 'phpmyadmin',
+    :git => 'https://github.com/LarkIT/larkit-phpmyadmin',
+    :ref => 'puppet4'
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
