@@ -65,6 +65,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'trlinkin-noop', '0.1.0'
   mod 'vshn-gitlab', '1.14.0'
   mod 'thias-squid3', '1.0.2'
+  mod 'yelp/uchiwa', '1.0.1'
 ## Modules sourced from Git
 
 mod 'duplicity',
