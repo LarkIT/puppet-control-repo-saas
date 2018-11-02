@@ -154,10 +154,6 @@ mod 'solr',
     :git => 'git@github.com:LarkIT/puppet-solr.git',
     :ref => 'master'
 
-mod 'spacewalk',
-    :git => 'git@github.com:LarkIT/puppet-spacewalk.git',
-    :ref => 'master'
-
 mod 'sshd',
     :git => 'https://github.com/LarkIT/jlambert121-sshd.git',
     :ref => 'puppet4'
