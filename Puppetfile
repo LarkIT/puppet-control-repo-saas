@@ -71,7 +71,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'duplicity',
     :git => 'https://github.com/LarkIT/puppet-duplicity.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'gms',
   :git => 'https://github.com/abrader/abrader-gms.git',
@@ -84,7 +84,7 @@ mod 'hieradata',
 
 mod 'host_railsapp',
     :git => 'git@github.com:LarkIT/puppet-host_railsapp.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'ipa',
     :git => 'https://github.com/huit/puppet-ipa',
@@ -100,7 +100,7 @@ mod 'mongodb',
 
 mod 'n98magerun',
     :git => 'git@github.com:LarkIT/puppet-n98magerun.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'openvpn_as',
     :git => 'https://github.com/LarkIT/puppet-openvpn_as.git',
@@ -108,7 +108,7 @@ mod 'openvpn_as',
 
 mod 'phpmyadmin',
     :git => 'https://github.com/LarkIT/larkit-phpmyadmin',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
@@ -116,7 +116,7 @@ mod 'profile',
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'pulp',
     :git => 'https://github.com/Katello/puppet-pulp.git',
@@ -142,13 +142,9 @@ mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
     :ref => 'master'
 
-#mod 'selinux',
-#    :git => 'git@github.com:LarkIT/puppet-selinux.git',
-#    :ref => 'puppet4'
-
 mod 'shibboleth',
     :git => 'git@github.com:LarkIT/puppet-shibboleth.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'solr',
     :git => 'git@github.com:LarkIT/puppet-solr.git',
@@ -156,11 +152,11 @@ mod 'solr',
 
 mod 'sshd',
     :git => 'https://github.com/LarkIT/jlambert121-sshd.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'webapp',
     :git => 'git@github.com:LarkIT/puppet-webapp.git',
-    :ref => 'puppet4'
+    :ref => 'master'
 
 mod 'yum',
     :git => 'https://github.com/LarkIT/puppet-yum.git',
