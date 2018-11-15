@@ -78,7 +78,7 @@ mod 'gms',
   :ref => 'v1.0.3'
 
 mod 'hieradata',
-    :git          => 'git@github.com:LarkIT/puppet-hieradata-saas.git',
+    :git          => 'git@github.com:LarkIT/puppet-saas-hieradata.git',
     :ref          => 'production',
     :install_path => ''
 
