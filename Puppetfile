@@ -112,7 +112,7 @@ mod 'phpmyadmin',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-    :ref => 'master'
+    :ref => 'production'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
@@ -136,7 +136,7 @@ mod 'repos',
 
 mod 'role',
     :git => 'git@github.com:LarkIT/role.git',
-    :ref => 'master'
+    :ref => 'production'
 
 mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
