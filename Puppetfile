@@ -69,6 +69,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'yelp/uchiwa', '1.0.1'
   mod 'puppetlabs-package_updates', '1.0.0'
   mod 'katello-pulp', '5.8.0'
+  mod 'katello-qpid', '4.4.1'
   
 ## Modules sourced from Git
 
