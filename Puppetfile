@@ -68,6 +68,8 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'thias-squid3', '1.0.2'
   mod 'yelp/uchiwa', '1.0.1'
   mod 'puppetlabs-package_updates', '1.0.0'
+  mod 'katello-pulp', '5.8.0'
+  
 ## Modules sourced from Git
 
 mod 'duplicity',
@@ -118,10 +120,6 @@ mod 'profile',
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
     :ref => 'master'
-
-mod 'pulp',
-    :git => 'https://github.com/Katello/puppet-pulp.git',
-    :ref => 'bb68da3' # Post 4.3.0
 
 mod 'qpid',
     :git => 'https://github.com/katello/puppet-qpid.git',
