@@ -67,7 +67,6 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'vshn-gitlab', '1.14.0'
   mod 'thias-squid3', '1.0.2'
   mod 'yelp/uchiwa', '1.0.1'
-  mod 'puppetlabs-package_updates', '1.0.0'
   mod 'katello-pulp', '5.8.0'
   
 ## Modules sourced from Git
