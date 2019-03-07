@@ -68,7 +68,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'yelp/uchiwa', '1.0.1'
   mod 'katello-pulp', '5.8.0'
   mod 'puppetlabs-package_updates', '1.0.0'
-  
+
 ## Modules sourced from Git
 
 mod 'duplicity',
@@ -81,7 +81,7 @@ mod 'gms',
 
 mod 'hieradata',
     :git          => 'git@github.com:LarkIT/puppet-saas-hieradata.git',
-    :ref          => 'production',
+    :ref          => 'DEVSUPPORT524',
     :install_path => ''
 
 mod 'host_railsapp',
@@ -114,7 +114,7 @@ mod 'phpmyadmin',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-    :ref => 'production'
+    :ref => 'DEVSUPPORT524'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
