@@ -68,6 +68,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'thias-squid3', '1.0.2'
   mod 'yelp/uchiwa', '1.0.1'
   mod 'katello-pulp', '5.8.0'
+  mod 'puppetlabs-package_updates', '1.0.0'
   
 ## Modules sourced from Git
 
