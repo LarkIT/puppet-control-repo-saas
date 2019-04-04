@@ -27,7 +27,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppet-logrotate', '2.0.0'
   mod 'puppet-rabbitmq', '8.1.0'
   mod 'puppet-selinux', '1.5.2'
-  # mod 'puppet-zabbix', '6.7.0'
+  mod 'puppet-zabbix', '6.7.0'
   mod 'puppet/letsencrypt', '1.1.0'
   mod 'puppetlabs-apache', '2.3.0'
   mod 'puppetlabs-lvm', '0.9.0'
@@ -71,9 +71,9 @@ forge "https://forgeapi.puppetlabs.com"
 
 ## Modules sourced from Git
 
-mod 'zabbix',
-    :git => 'https://github.com/LarkIT/puppet-zabbix.git',
-    :ref => 'DEVSUPPORT524'
+#mod 'zabbix',
+#    :git => 'https://github.com/LarkIT/puppet-zabbix.git',
+#    :ref => 'DEVSUPPORT524'
 
 mod 'duplicity',
     :git => 'https://github.com/LarkIT/puppet-duplicity.git',
