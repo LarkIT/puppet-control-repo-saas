@@ -17,7 +17,6 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'jlambert121/postfix', '0.9.0'
   mod 'kemra102-cloudwatchlogs', '2.3.1'
   mod 'lwf-remote_file', '1.1.3'
-  mod 'maestrodev/rvm', '1.11.0'
   mod 'mayflower/php', '4.0.0-beta1'
   mod 'nanliu-staging', '1.0.3'
   mod 'pcfens-ca_cert', '1.6.1'
@@ -140,6 +139,10 @@ mod 'role',
 mod 'rpmkey',
     :git => 'https://github.com/stschulte/puppet-rpmkey.git',
     :ref => 'master'
+
+mod 'rvm',
+    :git => 'git@github.com:LarkIT/puppet-rvm.git',
+    :ref => 'larkit2019'
 
 mod 'shibboleth',
     :git => 'git@github.com:LarkIT/puppet-shibboleth.git',
