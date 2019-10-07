@@ -84,7 +84,7 @@ mod 'gms',
 
 mod 'hieradata',
     :git          => 'git@github.com:LarkIT/puppet-saas-hieradata.git',
-    :ref          => 'DEVSUPPORT524',
+    :ref          => 'production',
     :install_path => ''
 
 mod 'host_railsapp',
