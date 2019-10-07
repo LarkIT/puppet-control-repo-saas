@@ -117,7 +117,7 @@ mod 'phpmyadmin',
 
 mod 'profile',
     :git => 'git@github.com:LarkIT/profile.git',
-    :ref => 'DEVSUPPORT524'
+    :ref => 'production'
 
 mod 'proftpd',
     :git => 'git@github.com:LarkIT/puppet-proftpd.git',
